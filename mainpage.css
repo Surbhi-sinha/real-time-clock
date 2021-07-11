@@ -1,0 +1,69 @@
+body{
+    background-image: url("realtimeclockbackground.jpg");
+   
+}
+#clockContainerid{
+    display: flex;
+    
+    margin: auto; 
+    height: 50%;
+    width: 90%;
+}
+.realtimeclock{
+    height: 80vh;
+    width: 100vh;
+    background-color: aliceblue;
+    opacity:0.8;
+    margin: 10px;
+    border-radius: 20%;
+    align-items: center; 
+  border: 3px solid lightskyblue;
+  
+}
+.Showtimehead{
+    margin-top: 150px;
+    margin-left: 100px;
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+}
+.Showtime{
+    margin-top: 30px;
+    margin-left: 200px;    
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color:#00c5ff;
+    border-radius: 20px;
+    
+    color:aliceblue;
+    padding: 10px;
+    font-size: x-large;
+    
+}
+/* #start-stop:hover{
+    background-color: #005eff;
+    color:aliceblue;
+    
+} */
+.Starttimehead{
+    margin-top: 150px;
+    margin-left: 120px;
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+}
+.Starttime{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.stopwatchclock{
+    height: 80vh;
+    width: 100vh;
+    background-color: aliceblue;
+    opacity:0.8;
+    margin: 10px;
+    border-radius: 20%;
+    align-items: center; 
+  border: 3px solid lightskyblue;
+}
