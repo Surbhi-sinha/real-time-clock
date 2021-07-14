@@ -1,0 +1,108 @@
+body{
+    background-image: url("realtimeclockbackground.jpg");
+    background-repeat:round;
+   
+}
+#clockContainerid{
+    display: flex;
+    justify-items: space-between;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.realtimeclock{
+    height: 80vh;
+    width: 100vh;
+    background-color: aliceblue;
+    opacity:0.8;
+    margin: 10px;
+    border-radius: 10%;
+    align-items: center; 
+  border: 3px solid lightskyblue;
+  flex-basis: 30%;
+
+    padding-left: 8px;
+    padding-right: 8px;
+  
+}
+.Showtimehead{
+    margin-top: 150px;
+    margin-left: 100px;
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+}
+.Showtime{
+    margin-top: 30px;
+    margin-left: 200px;    
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: aliceblue;
+}
+button{
+    background-color:#00c5ff;
+    border-radius: 20px;
+    color:aliceblue;
+    padding: 10px;
+    font-size: x-large;
+    
+}
+/* #start-stop:hover{
+    background-color: #005eff;
+    color:aliceblue;
+    
+} */
+.Starttimehead{
+    margin-top: 150px;
+    margin-left: 120px;
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+}
+.Starttime{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.stopwatchclock{
+    height: 80vh;
+    width: 100vh;
+    background-color: aliceblue;
+    opacity:0.8;
+    margin: 10px;
+    border-radius: 10%;
+    align-items: center; 
+  border: 3px solid lightskyblue;
+  flex-basis:30%;
+
+    padding-left: 8px;
+    padding-right: 8px;
+  
+}
+.timerhead{
+    margin-top: 150px;
+    margin-left: 120px;
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+    color: black;
+}
+.timertime{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.timer{
+    height: 80vh;
+    width: 100vh;
+    background-color: aliceblue;
+    opacity:0.8;
+    margin: 10px;
+    border-radius: 10%;
+    align-items: center; 
+  border: 3px solid lightskyblue;
+  flex-basis: 30%;
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
