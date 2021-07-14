@@ -1,0 +1,43 @@
+body{
+    background-image: url("realtimeclockbackground.jpg");
+   
+}
+.timerclockclass{
+    align-content: center;
+    margin-top:150px;
+    margin-left: 20%;;
+    font-size: 150px; 
+    font-weight: bold; 
+    color:#00C5FF; 
+    background-color:whitesmoke; 
+    border-radius: 150px;
+    border-style: double; 
+    padding: 20px; 
+    opacity: 0.8;
+    display: inline-block; 
+
+}
+label{
+    color: aliceblue;
+    margin-left: 45%;
+}
+.hoursoption{
+    margin-top: 10px;
+    font-size: larger;
+}
+.minutesoption{
+    margin-top: 10px;
+    font-size: larger;
+}
+.secondsoption{
+    margin-top: 10px;
+    font-size: larger;
+}
+button{
+    font-size:30px;
+    background-color:orangered;
+    color:black;
+    margin-left:47%;
+    opacity: 0.9;
+    margin-top: 10px;
+}
